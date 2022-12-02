@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Epilogue:wght@600&family=Inter:wght@500;600&family=Kumbh+Sans:wght@600&family=Michroma&family=Nunito:wght@300&family=Plus+Jakarta+Sans:wght@500&family=Space+Mono:wght@400;700&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1D1F29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 500px;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+        align-items: center;
+
+        .first_logo{
+            color: white;
+            font-size: 28px;
+        }
+        .logo{
+            color: #8C98C6;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.middle_part{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .box{
+        border-top: 4px solid #178FF5;
+        background-color: #252B42;
+        width: 23%;
+        color: #8C98C6;
+        text-align: center;
+        font-size: 13px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .follow{
+            font-size: 56px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .day{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #1EB589;
+        }
+    }
+    .box:hover{
+        background-color: #333A55;
+    }
+
+    .first_box{
+        border-top: 4px solid  #DF4896;
+        background-color: #252B42;
+        width: 23%;
+        color: #8C98C6;
+        text-align: center;
+        font-size: 13px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .follow{
+            font-size: 56px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .day{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #1EB589;
+        }
+    }
+    .first_box:hover{
+        background-color: #333A55;
+    }
+
+    .second_box{
+        border-top: 4px solid #C4032B;
+        background-color: #252B42;
+        width: 23%;
+        color: #8C98C6;
+        text-align: center;
+        font-size: 13px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .follow{
+            font-size: 56px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .day{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #C4032B;
+        }
+    }
+    .second_box:hover{
+        background-color: #333A55;
+    }
+
+   
+}
+.text{
+    color: white;
+    font-size: 24px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.first_line{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    .box{
+        background-color: #252B42;
+        width: 23%;
+        height: 120px;
+        border-radius: 10px;
+        cursor: pointer;
+        padding-bottom: 1.5%;
+
+        .boxes{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 25px;
+            margin: 10%;
+            font-size: 16px;
+            align-items: center;
+            margin-top: -5px;
+
+            .first_word{
+                color: #8C98C6;
+            }
+    }
+
+    .last_boxes{
+        display: flex;
+        justify-content: space-between;
+        margin: 10%;
+        font-size: 16px;
+        align-items: center;
+
+        .numbers{
+            font-size: 32px;
+            color: white;
+        }
+
+        .percentage{
+            color: #1EB589;
+            font-size: 16px;
+        }
+    }
+}
+
+    .box:hover{
+        background-color: #333A55;
+        
+    }
+
+
+   
+
+}
+
+.second_line{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+    .box{
+        background-color: #252B42;
+        width: 23%;
+        height: 120px;
+        border-radius: 10px;
+        cursor: pointer;
+        padding-bottom: 2%;
+    }
+    .box:hover{
+        background-color: #333A55;
+        
+    }
+}
+
